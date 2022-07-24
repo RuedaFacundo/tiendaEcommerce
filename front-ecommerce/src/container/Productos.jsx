@@ -8,8 +8,7 @@ const Productos = () => {
     fetch(url)
     .then(response => response.json())
     .then(data => setProductos(data))
-    console.log(productos)
-  })
+  }, [])
 
   return (
     <div>
