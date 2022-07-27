@@ -1,15 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import '../Statics/css/Header.css'
+import IconHeader from '../components/IconHeader'
+import AirplayIcon from '@mui/icons-material/Airplay';
 
 const Header = () => {
   return (
     <header>
-      <ul>
-        <li><Link to='/Productos'>Productos</Link></li>
-        <li><Link to='/Carrito'>Carrito</Link></li>
-        <li><Link to='/'>Home</Link></li>
-      </ul>
+        <div className='logo-contenedor'>
+          <AirplayIcon></AirplayIcon>
+        </div>
+        <div className='nombre-contenedor'>
+          TIENDA DE INSUMOS INFORMATICOS
+        </div>
+        <div className='icono-contenedor'>
+          Productos:
+          <IconHeader></IconHeader>
+        </div>
     </header>
   )
 }

@@ -1,29 +1,10 @@
-ul {
-  margin: 0px;
-}
-
-ul li {
-  display: inline-block;
-  margin-right: 5px;
-}
-
-ul li a {
-  color: white;
-  padding: 10px;
-  background-color: purple;
-}
-
-ul li a:hover {
-  padding: 10px;
-  background-color: cornflowerblue;
-}
-
-a {
-  text-decoration: none;
-}
-
 header {
   width: 100%;
-  height: 80px;
-  background-color: darkgray;
+  height: 60px;
+  background-color: #0097A7;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
 }
