@@ -5,6 +5,23 @@ header {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 15px;
+}
+
+.logo-contenedor {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.nombre-contenedor {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.icono-contenedor {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
