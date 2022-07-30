@@ -1,11 +1,32 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import CardProducto from '../components/CardProducto'
+import '../Statics/css/Home.css'
 
 const Home = () => {
+  let url = 'http://localhost:8080/categorias?categoria=Monitores'
+  const [productosDestacados, setProductosDestacados] = useState(0)
+  useEffect(()=> {
+    fetch(url)
+    .then(response => response.json())
+    .then(data => setProductosDestacados(data))
+  }, [])
+
+  const mostrarCard = () => {
+    if(productosDestacados.length > 0) {
+      return productosDestacados[0].productos;
+    }
+  }
+
   return (
-    <div>
-      <h1>Productos destacados</h1>
-      <CardProducto></CardProducto>
+    <div className='home-contenedor'>
+      <h3>Productos destacados</h3>
+      <div className='destacados-contenedor'>
+      {
+        productosDestacados.length > 0 &&
+        mostrarCard().map((item, i) => <div><CardProducto key={item.id} {...item}></CardProducto></div> )
+
+      }
+      </div>
     </div>
   )
 }
