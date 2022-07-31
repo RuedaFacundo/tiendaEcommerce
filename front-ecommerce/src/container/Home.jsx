@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import CardProducto from '../components/CardProducto'
 import '../Statics/css/Home.css'
 import CardAsesoramiento from '../components/CardAsesoramiento'
+import BarraDeInformacion from '../components/BarraDeInformacion'
 
 const Home = () => {
   let url = 'http://localhost:8080/categorias?categoria=Monitores'
@@ -30,6 +31,9 @@ const Home = () => {
       </div>
       <div className='asesoramiento-contendor'>
         <CardAsesoramiento></CardAsesoramiento>
+      </div>
+      <div className='informacion-contenedor'>
+        <BarraDeInformacion></BarraDeInformacion>
       </div>
     </div>
   )
