@@ -5,7 +5,7 @@ import Tab from '@mui/material/Tab';
 
 const CenteredTabs = (props) => {
   return (
-    <Box sx={{ width: '100%', bgcolor: '#B2EBF2' }}>
+    <Box sx={{ width: '100%', bgcolor: '#e7e7e7' }}>
       <Tabs centered>
         <Tab label="Home" href='/Home'/>
         <Tab label="Productos" href='/Productos'/>

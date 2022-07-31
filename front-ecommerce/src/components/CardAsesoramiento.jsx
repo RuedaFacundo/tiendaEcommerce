@@ -22,7 +22,7 @@ export default function CardAsesoramiento() {
           <Item md={8}>
             <div className='container'>
             <img src="https://www.soiinformatica.com/assets/images/mantenimiento-preventivo.png" alt="Imagen de asesoramiento" />
-            <Typography variant="body2" className='text' color="text.secondary">
+            <Typography variant="h5" className='text' color="text.secondary">
               Te brindamos un asesoramiento especial para el armado y reparacion de tu PC! <br /> <br />
               Contamos con las mejores herramientas y equipo de especializados para la reparacion de tu PC. <br /> <br />
               Arma tu PC, de acuerdo a tus necesidades, con los mejores componentes del mercado y al mejor precio.

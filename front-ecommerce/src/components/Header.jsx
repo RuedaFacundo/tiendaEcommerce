@@ -1,16 +1,16 @@
 import React from 'react'
 import '../Statics/css/Header.css'
 import IconHeader from '../components/IconHeader'
-import AirplayIcon from '@mui/icons-material/Airplay';
+import BarraDeBusqueda from '../components/BarraDeBusqueda'
 
 const Header = () => {
   return (
     <header>
         <div className='logo-contenedor'>
-          <AirplayIcon></AirplayIcon>
+          <img src="https://www.venex.com.ar/fil/logo/header_logo_nuevo_facebook.png" alt="Logo" width={80}/>
         </div>
         <div className='nombre-contenedor'>
-          TIENDA DE INSUMOS INFORMATICOS
+          <BarraDeBusqueda></BarraDeBusqueda>
         </div>
         <div className='icono-contenedor'>
           Productos:
