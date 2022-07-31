@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text {
+  display: flex;
+  font-size: 1.5em;
+  align-items: center;
+}
+
+.negrita {
+  font-weight: bold;
+}
