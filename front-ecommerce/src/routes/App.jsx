@@ -1,10 +1,11 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from '../container/Home'
 import Carrito from '../container/Carrito'
 import Productos from '../container/Productos'
 import Error404 from '../container/Error404'
-import Layout from '../components/Layout';
+import Layout from '../components/Layout'
+import PreguntasFrecuentes from '../container/PreguntasFrecuentes'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path='/carrito' element={<Carrito />}></Route>
           <Route path='/productos' element={<Productos />}></Route>
           <Route path='' element={<Error404 />}></Route>
+          <Route path='/PreguntasFrecuentes' element={<PreguntasFrecuentes />}></Route>
         </Routes>
       </Layout>
     </BrowserRouter>

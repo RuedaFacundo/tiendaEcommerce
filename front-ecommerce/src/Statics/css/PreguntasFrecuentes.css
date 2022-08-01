@@ -1,0 +1,34 @@
+.preguntas-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+h1 {
+  border-bottom: 1px solid #e7e7e7;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+ul {
+  width: 80%;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.ancho {
+  max-width: 100%;
+}
+
+.negrita {
+  font-weight: bold;
+}
