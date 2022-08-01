@@ -6,7 +6,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 const IconHeader = () => {
   return (
     <IconButton aria-label="cart" style={{ color: "white" }}>
-      <Badge badgeContent={4} color="secondary">
+      <Badge badgeContent={localStorage.getItem('compras').split(',').length} color="secondary">
         <ShoppingCartIcon />
       </Badge>
     </IconButton>

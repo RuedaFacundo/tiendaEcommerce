@@ -3,6 +3,7 @@ import CardProducto from '../components/CardProducto'
 import '../Statics/css/Home.css'
 import CardAsesoramiento from '../components/CardAsesoramiento'
 import BarraDeInformacion from '../components/BarraDeInformacion'
+import Carrusel from '../components/Carrusel'
 
 const Home = () => {
   let url = 'http://localhost:8080/categorias?categoria=Monitores'
@@ -21,6 +22,7 @@ const Home = () => {
 
   return (
     <div className='home-contenedor'>
+      <Carrusel></Carrusel>
       <h3>Productos destacados</h3>
       <div className='destacados-contenedor'>
         {
