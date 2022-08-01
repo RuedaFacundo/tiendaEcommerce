@@ -10,6 +10,7 @@ const CenteredTabs = (props) => {
         <Tab label="Home" href='/Home'/>
         <Tab label="Productos" href='/Productos'/>
         <Tab label="Carrito" href='/Carrito'/>
+        <Tab label="Preguntas Frecuentes" href='/PreguntasFrecuentes'/>
       </Tabs>
     </Box>
   );
