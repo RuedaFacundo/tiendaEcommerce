@@ -4,8 +4,13 @@ import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const IconHeader = () => {
+
+  const handleClick = () => {
+    window.location.href="carrito"
+  }
+
   return (
-    <IconButton aria-label="cart" style={{ color: "white" }}>
+    <IconButton onClick={handleClick} aria-label="cart" style={{ color: "white" }}>
       <Badge badgeContent={localStorage.getItem('compras').split(',').length} color="secondary">
         <ShoppingCartIcon />
       </Badge>

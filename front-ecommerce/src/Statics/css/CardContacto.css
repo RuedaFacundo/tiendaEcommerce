@@ -22,7 +22,6 @@
   z-index: 99;
   background-color: #152f50;
   padding: 0 5px;
-  cursor: pointer;
 }
 
 .cardTitle {
@@ -51,6 +50,7 @@
 
 .iconMargin {
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .contacto-contenedor {

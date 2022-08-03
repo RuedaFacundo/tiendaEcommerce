@@ -4,9 +4,9 @@ import '../Statics/css/Header.css'
 
 const BarraDeBusqueda = () => {
   return (
-    <div class="group">
+    <div className="group">
       <SearchIcon />
-      <input placeholder="Buscar..." type="search" class="input" />
+      <input placeholder="Buscar..." type="search" className="input" />
     </div>
   );
 }
