@@ -1,0 +1,84 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.card {
+  background: #07182E;
+  border-radius: 5px;
+  text-align: center;
+  color: #f0f0f0;
+  font-family: inherit;
+  z-index: 1;
+}
+
+.img {
+  display: flex;
+  margin: 60px auto 10px auto;
+  border-radius: 50%;
+  transition: all 0.5s;
+  z-index: 99;
+  background-color: #152f50;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.cardTitle {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
+}
+
+.card:hover .img {
+  transform: scale(1.1);
+}
+
+.card:hover h1,
+.card:hover p {
+  opacity: 1;
+}
+
+.logos-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+}
+
+.iconMargin {
+  margin-right: 20px;
+}
+
+.contacto-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.h1 {
+  border-bottom: 1px solid #e7e7e7;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.cardAndText {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardAndText {
+    flex-wrap: wrap;
+  }
+
+  .card-container {
+    margin-bottom: 30px;
+  }
+}

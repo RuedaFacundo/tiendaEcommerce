@@ -18,7 +18,7 @@ const Pregunta = (props) => {
   return (
     <div>
       <ListItemButton onClick={handleClick}>
-        <ListItemIcon className='ancho negrita'>
+        <ListItemIcon className='anchoPreguntas negrita'>
           {pregunta}
         </ListItemIcon>
         <ListItemText />
@@ -27,7 +27,7 @@ const Pregunta = (props) => {
       <Collapse in={open} timeout="auto" unmountOnExit>
       <List component="div" disablePadding>
         <ListItemButton sx={{ pl: 4 }}>
-          <ListItemIcon className='ancho'>
+          <ListItemIcon className='anchoPreguntas'>
             {respuesta}
           </ListItemIcon>
           <ListItemText />

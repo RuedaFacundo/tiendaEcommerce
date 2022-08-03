@@ -5,27 +5,27 @@
   flex-direction: column;
 }
 
-h1 {
+.titlePreguntas {
   border-bottom: 1px solid #e7e7e7;
   width: 80%;
   padding-bottom: 10px;
 }
 
-ul {
+.listPreguntas {
   width: 80%;
   list-style: none outside none;
   margin: 0;
   padding: 0;
 }
 
-li {
+.itemListPreguntas {
   list-style: none;
   border: 1px solid #e4e4e4;
   box-sizing: border-box;
   margin-bottom: 10px;
 }
 
-.ancho {
+.anchoPreguntas {
   max-width: 100%;
 }
 

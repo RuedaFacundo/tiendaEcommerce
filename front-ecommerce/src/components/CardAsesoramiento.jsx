@@ -20,9 +20,9 @@ export default function CardAsesoramiento() {
       <Grid container spacing={2} columns={16}>
         <Grid item md={16}>
           <Item md={8}>
-            <div className='container'>
+            <div className='container-asesoramiento'>
             <img src="https://www.soiinformatica.com/assets/images/mantenimiento-preventivo.png" alt="Imagen de asesoramiento" />
-            <Typography variant="h5" className='text' color="text.secondary">
+            <Typography variant="h5" className='text-asesoramiento' color="text.secondary">
               Te brindamos un asesoramiento especial para el armado y reparacion de tu PC! <br /> <br />
               Contamos con las mejores herramientas y equipo de especializados para la reparacion de tu PC. <br /> <br />
               Arma tu PC, de acuerdo a tus necesidades, con los mejores componentes del mercado y al mejor precio.
@@ -34,13 +34,3 @@ export default function CardAsesoramiento() {
     </Box>
   );
 }
-
-/*
-  HOME:
-  SECTOR PARA ASESORAMIENTO CON IMAGEN Y TEXTO
-  PROBAR DE HACER SECTOR CATEGOIA COMO FRAVEGA
-  FOOTER DE FRAVEGA
-  LOGO TEWIN
-
-
-*/
