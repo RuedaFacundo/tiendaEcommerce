@@ -29,6 +29,17 @@ export default function CardProducto(props) {
     setExpanded(!expanded);
   };
 
+  const handleClick = () => {
+    let compra = localStorage.getItem('compras')
+    if (compra === null) {
+      compra = id
+    } else {
+      compra = compra + ',' + id
+    }
+    console.log(compra);
+    localStorage.setItem('compras', compra)
+  }
+
   return (
     <Card className='card' sx={{ maxWidth: 345 }}>
       <div className='cardImage'>
@@ -43,7 +54,7 @@ export default function CardProducto(props) {
         <Typography variant="body2" color="text.secondary">
           Precio: {precio}
         </Typography>
-        <IconButton aria-label="add to carrito">
+        <IconButton aria-label="add to carrito" onClick={handleClick}>
           <AddShoppingCartIcon />
         </IconButton>
         <ExpandMore

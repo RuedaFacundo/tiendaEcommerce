@@ -1,0 +1,27 @@
+.productos-contenedor {
+  width: 80%;
+  display: FLEX;
+  margin: auto;
+  JUSTIFY-CONTENT: CENTER;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+}
+
+.categorias-contenedor {
+  width: 20%;
+}
+
+.cards-contenedor {
+  width: 80%;
+}
+
+.cardProduct {
+  margin: 10px;
+}
+
+.titleProducts {
+  margin: 15px;
+}
